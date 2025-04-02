@@ -1,3 +1,5 @@
+import * from app.py
+
 print("Hello world")
 print("red")
 print("google")
