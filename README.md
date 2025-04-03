@@ -11,21 +11,21 @@ git config --list --global
 #### 2.如果没有name/email添加
 
 ```shell
-git config --global user.name "lengxueaoshuang"
-git config --global user.email "lengxueaoshuang@gmail.com"
+git config --global user.name "your-name"
+git config --global user.email "your-emil@gmail.com"
 ```
 
 #### 3.ssh生成密钥 
 
 ```shell
-ssh-keygen -t rsa -b 4096 -C "lengxueaoshuang@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "your-emil@gmail.com"
 ```
 
 - `-t rsa`：指定密钥类型为 RSA（推荐使用 RSA，因为它更通用）。
 
-- `-b 4096`：指定密钥长度为 4096 位（更高的密钥长度意味着更高的[安全性](https://so.csdn.net/so/search?q=安全性&spm=1001.2101.3001.7020)）。
+- `-b 4096`：指定密钥长度为 4096 位（更高的密钥长度意味着更高的安全性）。
 
-- `-C "lengxueaoshuang@gmail.com"`：添加一个注释，通常是你的电子邮件地址，用于标识密钥。
+- `-C "your-emil@gmail.com"`：添加一个注释，通常是你的电子邮件地址，用于标识密钥。
 
 #### 4.生成两个文件公钥与私钥
 
